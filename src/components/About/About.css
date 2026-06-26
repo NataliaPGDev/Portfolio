@@ -1,0 +1,192 @@
+.about-section {
+  background-color: #ffffff;
+}
+
+.about-text {
+  font-size:1.1rem;
+  line-height:1.6;
+  opacity:.8;
+  text-align:justify;
+}
+
+
+
+/* TITULOS */
+
+.skills-title {
+  font-size:1.4rem;
+  font-weight:400;
+}
+
+.skills-card {
+  padding: 1.5rem;
+  border-radius: 1rem;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.skills-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* TECNOLOGIAS */
+
+.skills-icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.75rem;
+  justify-items: center;
+}
+
+.tech-icon {
+  width: var(--about-icon-size-sm);
+  height: var(--about-icon-size-sm);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f3ff;
+  color: #8b5cf6;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+  font-size: 1.5rem;
+  transition: background 0.3s ease, color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tech-icon:hover {
+  background: #8b5cf6;
+  color: white;
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(139, 92, 246, 0.25);
+}
+
+/* Tablet: carrusel horizontal */
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .skills-icons {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 0.75rem;
+    justify-content: flex-start;
+    padding-bottom: 0.25rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  .skills-icons::-webkit-scrollbar {
+    display: none;
+  }
+
+  .skills-icons .tech-icon {
+    flex-shrink: 0;
+    width: var(--about-icon-size-md);
+    height: var(--about-icon-size-md);
+    font-size: 1.625rem;
+  }
+}
+
+/* Desktop estrecho: 2 filas (6 + 5) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .skills-icons {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 0.5rem;
+    overflow-x: visible;
+  }
+
+  .skills-icons .tech-icon {
+    width: var(--about-icon-size-md);
+    height: var(--about-icon-size-md);
+    font-size: 1.5rem;
+  }
+}
+
+/* Desktop ancho: una sola línea */
+@media (min-width: 1200px) {
+  .skills-icons {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    gap: 0.35rem;
+  }
+
+  .skills-icons .tech-icon {
+    flex: 1 1 0;
+    width: auto;
+    max-width: var(--about-icon-size-lg);
+    height: auto;
+    aspect-ratio: 1;
+    font-size: 1.625rem;
+  }
+}
+
+/* FORMACION */
+
+.timeline-item {
+
+  position:relative;
+
+  padding-left:1.5rem;
+
+  border-left:2px solid #8b5cf6;
+
+}
+
+
+.timeline-item h5 {
+
+  font-weight:600;
+
+}
+
+
+.timeline-item span {
+
+  color:#8b5cf6;
+
+  font-size:.9rem;
+
+}
+
+
+
+
+/* SOFT SKILLS */
+
+
+.softskill-badge {
+
+  padding:.5rem 1rem;
+
+  border-radius:999px;
+
+  background:#f5f3ff;
+
+  color:#6d28d9;
+
+  border:1px solid #ddd6fe;
+
+  font-size:.9rem;
+
+}
+
+
+
+
+/* EXPERIENCIA */
+
+.experience-content h5 {
+  font-weight: 600;
+  margin-top: 0.35rem;
+}
+
+.experience-period {
+
+ color:#8b5cf6;
+
+ font-size:.85rem;
+
+ font-weight:600;
+
+}

@@ -1,0 +1,25 @@
+
+ /* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* TIPOGRAFÍA GLOBAL */
+body {
+  font-family: 'Nunito','Inter', sans-serif;
+  background-color: #ffffff;
+  color: #000;
+}
+
+/* SCROLL SUAVE */
+html {
+  scroll-behavior: smooth;
+}
+
+/* QUITAR SUBRAYADO GLOBAL (Bootstrap lo respeta) */
+a {
+  text-decoration: none;
+  color: inherit;
+}

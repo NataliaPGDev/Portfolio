@@ -1,0 +1,20 @@
+.projects-section {
+   background-color: #ffffff;
+}
+
+/* ESPACIADO ENTRE CARDS */
+.row.g-4 {
+  row-gap: 2rem;
+}
+
+.modal {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .project-img {
+    height: 150px;
+  }
+}

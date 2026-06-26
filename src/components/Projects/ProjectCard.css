@@ -1,0 +1,97 @@
+/* CARD BASE */
+.project-card {
+    overflow: hidden;
+    padding: 1rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 1rem;
+    background: rgba(139, 92, 246, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: default;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(139, 92, 246, 0.15);
+}
+
+/* CARD EXPANDIDA */
+.project-card.expanded {
+    transform: scale(1.01);
+    border-color: #8b5cf6;
+}
+
+/* IMAGEN */
+.project-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 0.75rem;
+}
+
+/* CONTENIDO */
+.project-content {
+    padding: 1rem;
+}
+
+.project-content h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.project-content p {
+    opacity: .9;
+    line-height: 1.5;
+    font-size: 0.9rem;
+}
+
+/* BOTÓN VER MÁS */
+.read-more-btn {
+    background: none;
+    border: none;
+    color: #8b5cf6;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 0;
+    margin-top: .5rem;
+    transition: opacity 0.2s ease;
+}
+
+.read-more-btn:hover {
+    opacity: .7;
+}
+
+/* ICONOS DE TECNOLOGÍAS */
+.tech-icons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.tech-icons img {
+    width: 40px;
+    height: 40px;
+    filter: brightness(0) invert(1);
+    opacity: .9;
+    transition: transform .2s ease;
+}
+
+.tech-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* DETALLES EXPANDIDOS */
+.detail-row {
+    margin-bottom: 1.5rem;
+}
+
+.detail-row h4 {
+    font-size: 1.2rem;
+    margin-bottom: .3rem;
+}
+
+.detail-row p {
+    opacity: .9;
+    line-height: 1.6;
+}
