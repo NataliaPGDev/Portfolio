@@ -41,7 +41,7 @@ const Hero = () => {
             </a>
 
             <a
-              href="#contact"
+              href="/npgcv.pdf" download="NataliaPerezGameroCV.pdf"
               className="btn btn-outline-dark btn-lg rounded-pill shadow-sm transition-hover px-4 d-inline-flex align-items-center justify-content-center gap-2 boton-cv"
             >
               <FiDownload size={18} />
