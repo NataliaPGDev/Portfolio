@@ -23,8 +23,8 @@ const Hero = () => {
         <div className="d-flex flex-column col-12 col-md-6 mb-5 ms-md-auto mt-5">
           {/* Descripción */}
           <p className="text-dark mb-5">
-            Mi trabajo se centra en la construcción de servicios web combinando
-            diseño y lógica de negocio con enfoque en el desarrollo de
+            Actualmente centrada en la construcción de mi perfil como desarrolladora
+            backend desarrollando proyectos con enfoque en el desarrollo de
             soluciones <strong>Java, Spring Boot y React</strong>. Me apasiona
             crear interfaces limpias, sistemas modulares y soluciones que
             realmente aporten valor.
