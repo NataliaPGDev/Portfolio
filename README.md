@@ -8,7 +8,7 @@ Construyendo mi perfil junior como desarrolladora backend con base frontend.
 - Netlify
 
 ## 📸 Vista previa
-![Imagen portfolio NataliaPGDev](./assets/img/portfolio.png)
+![Imagen portfolio NataliaPGDev](img/portfolio.png)
 
 ## 🌐 Demo
 👉 https://nataliaperezgamero.netlify.app
