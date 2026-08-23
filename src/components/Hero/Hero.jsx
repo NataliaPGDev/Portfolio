@@ -26,7 +26,7 @@ const Hero = () => {
             Actualmente buscando nuevas oportunidades laborales
             para crecer y construir mi perfil como desarrolladora junior
             backend realizando proyectos con enfoque
-            <strong>Java, Spring Boot y React</strong>. Me apasiona
+             <strong> Java, Spring Boot y React</strong>. Me apasiona
             crear interfaces limpias, sistemas modulares y soluciones que
             realmente aporten valor.
           </p>
