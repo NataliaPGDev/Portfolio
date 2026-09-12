@@ -1,6 +1,6 @@
 .site-footer {
-    width: calc(100% - var(--sidebar-width));
-    margin-left: var(--sidebar-width);
+    width: 100vw;
+    margin-left: 0;
     padding: 1.5rem 2rem 2.5rem;
     background: transparent;
     box-sizing: border-box;

@@ -104,10 +104,6 @@ export default function Contacto() {
             </form>
           </div>
         </div>
-        <hr className="mt-4"></hr>
-        <p className="text-center fs-6">
-          &copy; NGDesarrolloWeb. Todos los derechos reservados.
-        </p>
       </div>
     </section>
   )
