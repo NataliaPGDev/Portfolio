@@ -18,7 +18,7 @@ const navItems = [
   },
   {
     href: "#contact",
-    text: "Contacto",
+    text: "Contacto ",
     icon: <VscCallOutgoing size={18} />
   }
 ];

@@ -50,8 +50,11 @@
 
 .sidebar-links a {
   display: inline-block;
-  font-size: 0.9rem;
-  font-weight: 500;
+  line-height: 0.5rem;
+  opacity: .6;
+  font-size: 1.2rem;
+  font-weight: 100;
+  
 }
 
 .sidebar-links a:hover {

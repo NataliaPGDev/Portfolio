@@ -15,7 +15,7 @@ const Hero = () => {
         </h1>
 
         {/* Subtítulo */}
-        <h6 className="mb-5 text-end">
+        <h6 className="mb-4 text-end">
           <em>Desarrolladora backend junior con base frontend</em>
         </h6>
 
@@ -23,12 +23,10 @@ const Hero = () => {
         <div className="d-flex flex-column col-12 col-md-6 mb-5 ms-md-auto mt-5">
           {/* Descripción */}
           <p className="text-dark mb-5">
-            Actualmente buscando nuevas oportunidades laborales
+            En búsqueda de nuevas oportunidades laborales
             para crecer y construir mi perfil como desarrolladora junior
-            backend realizando proyectos con enfoque
-             <strong> Java, Spring Boot y React</strong>. Me apasiona
-            crear interfaces limpias, sistemas modulares y soluciones que
-            realmente aporten valor.
+            backend con enfoque principalmente en
+            <strong> Java, Spring Boot</strong> y principales herramientas frontend.
           </p>
 
           {/* Botones */}
