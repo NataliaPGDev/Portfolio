@@ -37,19 +37,19 @@ function About() {
 
             <p className="about-text mb-4">
               Tras una larga trayectoria en la gestión de proyectos culturales,
-              me adentro en el mundo del desarrollo web mediante la FP de DAW.
-              Después de finalizar mis estudios, descubrí que lo que realmente me
-              apasiona es entender cómo funcionan las cosas por dentro. Soy una
-              desarrolladora que disfruta de aprender, mejorar y trabajar en
-              proyectos donde la lógica de negocio, la calidad del código y 
-              la experiencia del usuario importan. Me considero una persona 
-              curiosa, constante y orientada a resultados.
+              decido adentrarme en el mundo del desarrollo web mediante la FP de DAW.
+              Después de finalizar mis estudios, descubrí que lo que realmente
+              me apasiona es entender cómo funcionan las cosas por dentro. Soy
+              una desarrolladora que disfruta de aprender, mejorar y trabajar en
+              proyectos donde la arquitectura, la lógica de negocio y la calidad
+              del código importan. 
             </p>
 
             <p className="about-text">
-              Actualmente estoy reforzando mis conocimientos en distintas
-              tecnologías para crecer como desarrolladora backend así como en el área de datos,
-              y aportar valor construyendo soluciones claras, eficientes y completas.
+              Actualmente reforzando mis conocimientos en distintas tecnologías
+              para crecer como desarrolladora backend orientada a proyectos en
+              entornos empresariales, entre otros, con el fin de aprender a construir 
+              soluciones claras, eficientes y escalables.
             </p>
           </div>
         </div>
@@ -80,7 +80,9 @@ function About() {
               <div className="experience-content mt-4">
                 <span className="experience-period">Marzo - Junio 2026</span>
                 <h5>Zaitec Innova S.L.</h5>
-                <p className="mb-0">Desarrollo web y colaboración en proyectos tecnológicos.</p>
+                <p className="mb-0">
+                  Desarrollo web y colaboración en proyectos tecnológicos.
+                </p>
               </div>
             </div>
           </div>
