@@ -23,7 +23,6 @@ function Projects() {
       title: 'E-commerce Rannkor',
       image: fotorannkor,
       short: 'Tienda online de zapatillas.',
-      architecture: 'En proceso de migración',
       enlace: 'https://rannkor.infinityfreeapp.com'
     },
     {
@@ -79,22 +78,18 @@ function Projects() {
                     alt={selectedProject.title}
                     className="img-fluid rounded mb-4"
                   />
-                  {/* DETALLES */}
-                  <div className="mb-3">
-                    <h5>Arquitectura</h5>
-                    <p>{selectedProject.architecture}</p>
-                  </div>
+                  
                   {/* ENLACES */}
                   <div className="mb-3">
-                    <h5>Url:</h5>
-                    <a
+                    <h5>URL: <a
                       href={selectedProject.enlace}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary"
                     >
                       {selectedProject.enlace}
-                    </a>
+                    </a></h5>
+                    
                   </div>
 
                   {/* BOTÓN CERRAR */}
