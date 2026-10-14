@@ -64,15 +64,15 @@ function About() {
               </h3>
 
               <div className="timeline-item mt-4">
-                <h5>IFCT0244 SAP Business Technology Platform</h5>
+                <h6>IFCT0244 SAP Business Technology Platform</h6>
                 <span>2026</span>
                 <p>Academia Experis</p>
 
-                <h5>IFCT0097 SAP ABAP Cloud</h5>
+                <h6>IFCT0097 SAP ABAP Cloud</h6>
                 <span>2026</span>
                 <p>Academia Experis</p>
 
-                <h5>Desarrollo de Aplicaciones Web</h5>
+                <h6>Desarrollo de Aplicaciones Web</h6>
                 <span>2024 - 2026</span>
                 <p>Davante</p>
               </div>
@@ -82,14 +82,26 @@ function About() {
           <div className="col-12 col-md-6">
             <div className="skills-card h-100">
               <h3 className="skills-title">
-                <strong>Experiencia</strong>
+                <strong>Experiencia Tech</strong>
               </h3>
 
               <div className="experience-content mt-4">
-                 <h5>Zaitec Innova S.L.</h5>
+                 <h6>Zaitec Innova S.L.</h6>
                 <span className="experience-period">Marzo - Junio 2026</span>
                 <p className="mb-0">
                   Desarrollo web y colaboración en proyectos tecnológicos.
+                </p>
+              </div>
+
+              <h3 className="skills-title">
+                <strong>Otros</strong>
+              </h3>
+
+              <div className="experience-content mt-4">
+                 <h6>Gestión Proyectos culturales</h6>
+                <span className="experience-period">2014-2022</span>
+                <p className="mb-0">
+                  Formulación, gestión integral y producción de proyectos culturales tanto como ayudante así como responsable de proyecto.
                 </p>
               </div>
             </div>

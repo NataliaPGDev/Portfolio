@@ -36,8 +36,7 @@ function Projects() {
       id: 3,
       title: 'Proyectos SAP',
       image: sap,
-      short: 'Proyectos de formación SAP',
-      enlace: ''
+      short: 'Proyectos de formación SAP'
     }
   ]
 
