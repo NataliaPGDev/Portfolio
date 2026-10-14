@@ -64,6 +64,14 @@ function About() {
               </h3>
 
               <div className="timeline-item mt-4">
+                <h5>IFCT0244 SAP Business Technology Platform</h5>
+                <span>2026</span>
+                <p>Academia Experis</p>
+
+                <h5>IFCT0097 SAP ABAP Cloud</h5>
+                <span>2026</span>
+                <p>Academia Experis</p>
+
                 <h5>Desarrollo de Aplicaciones Web</h5>
                 <span>2024 - 2026</span>
                 <p>Davante</p>
@@ -78,8 +86,8 @@ function About() {
               </h3>
 
               <div className="experience-content mt-4">
+                 <h5>Zaitec Innova S.L.</h5>
                 <span className="experience-period">Marzo - Junio 2026</span>
-                <h5>Zaitec Innova S.L.</h5>
                 <p className="mb-0">
                   Desarrollo web y colaboración en proyectos tecnológicos.
                 </p>

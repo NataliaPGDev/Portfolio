@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import ProjectCard from './ProjectCard'
-import fotoportfolio from '../../assets/img/portfolio.png'
+import sap from '../../assets/img/sap.png'
 import fotorannkor from '../../assets/img/rannkor.png'
 import fotogestfincas from '../../assets/img/gestfincas.png'
 
@@ -27,20 +27,17 @@ function Projects() {
     },
     {
       id: 2,
-      title: 'Portfolio',
-      image: fotoportfolio,
-      short: 'Portfolio React/Bootstrap',
-      architecture: 'SPA con componentes reutilizables y layout modular.',
-      challenges: 'Sidebar dinámico, scroll suave y diseño responsive.',
-      learnings:
-        'Optimización de componentes y organización profesional del código.'
+      title: 'Web GestFincas',
+      image: fotogestfincas,
+      short: 'Aplicacion para la gestión de comunidades',
+      architecture: 'En proceso de testing'
     },
     {
       id: 3,
-      title: 'App GestFincas',
-      image: fotogestfincas,
-      short: 'App gestión de comunidades',
-      architecture: 'En proceso de testing'
+      title: 'Proyectos SAP',
+      image: sap,
+      short: 'Proyectos de formación SAP',
+      enlace: ''
     }
   ]
 
